@@ -1,0 +1,41 @@
+@media(max-height:550px){
+    object{
+        display: none;
+    }
+    @media(max-width:650px){
+        
+        /*====== NAV =====*/
+      /*===== News =====*/
+        #news{
+            display: none;
+        }
+
+        /*===== Minutiae =====*/
+       #Minutiae{
+           margin-top: -60px;
+        }
+
+        /*===== Flooder =====*/
+        #fload{
+            background-color:rgba(0,80,140,1);
+            font-size: 8pt;
+            height: 30px;
+        }
+        
+        #Button-Up{
+                bottom: 3px;
+                height: 30px;
+                width: 30px;
+            }
+            #Button-Up:hover{
+                transform: scale(1.1);
+            }
+            #Button-Up img {
+                 height: 25px;
+                 width: 20px;
+            }
+
+    }
+ 
+    
+}

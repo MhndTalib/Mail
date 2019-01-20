@@ -1,0 +1,97 @@
+
+#mune{
+    background-color:rgba(205,105,100,0.2);
+    float: right;
+    right: 5%;
+    width: 180px;
+    position: fixed;
+    margin-top: 60px;
+    height: calc(100% - 100px);
+}
+#mune p {
+    height: 20px;
+    padding: 10px;
+    margin: 8px 0;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color:rgba(205,105,100,.2);
+    text-align: center;
+    text-decoration-line: none;
+    font-size: 11pt;
+    color: rgba(255,255,255,1);;
+    text-decoration-line: none;
+    transition-duration: 0.5s;
+    line-height: 20px;
+}
+#mune p:hover{
+    background-color:rgba(205,105,200,.8);
+    text-align: center;
+    font-size: 14pt;
+    color: rgba(0,0,0,1);
+}
+.box_active{
+    background-color:rgba(200,85,150,0.6);
+    text-align: center;
+    font-size: 14pt;
+    color: rgba(255,255,150,1);
+ }
+#mune p .M_icon{
+    display: none;
+    float: right;
+    border-radius: 25px;
+}
+#mune p .M_icon img{
+    border-radius: 10px;
+}
+#mune p .M_Name{
+    float: right;
+    text-decoration-line: none;
+    padding-right: 10px;
+}
+#mune p .M_Num{
+    float: left;
+    padding-right: 15px;
+}
+#mune #M_Nav{
+    background-color:rgba(205,105,100,.1);
+    float: right;
+    height: 30px;
+    width: 180px;
+    font-size: 10pt;
+    margin-top: 5px;
+    font-family: 'Harmattan', sans-serif; 
+}
+#mune #M_link{
+    margin-top: 50px
+}
+#mune #M_Nav .New a{
+    background-color: rgba(255,220,0,0.7);
+    font-size: 13pt;
+    font-weight: 900;
+    padding: 2px 15px 2px 15px;
+    border-radius: 10px;
+    text-decoration-line: none;
+    color: #00f;
+    font-family: 'Harmattan', sans-serif;
+    transition-duration:  1s;
+}
+#mune #M_Nav .New a .Add{
+    width: 20px;
+    height: 20px;
+    display: none;
+    font-family: 'Harmattan', sans-serif;
+}
+#mune #M_Nav a:hover{
+    background-color: rgba(0,0,200,0.5);
+    color: #ff0;
+    font-size: 15pt;
+}
+
+object{
+    position:absolute;
+    width: 100%;
+    height: 160px;
+    bottom: 5px;
+    right: 0;
+    
+}

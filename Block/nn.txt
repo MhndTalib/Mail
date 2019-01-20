@@ -1,0 +1,17 @@
+ <div id="Body">
+            <!-- Mune -->
+            <?php include("Block/menu.php"); ?>
+            <!--  View  -->
+            <div id="View">
+                
+                <!-- التفاصيل  -->
+                <div id="Minutiae">
+                <?php include("Block/news.php"); ?>
+                    التفاصيل
+                    <br/><BR/>
+                    kj fgajsdlfk lksjf lsjf lksj f<br/><BR/>lksjdf lksjf klkdsjfh aklsjdhfk fh askjdfhd kfjh kldsfh lkasjdfh klajsdf halksdjfhl akdsfh kljsadhfads lkfjhaksdjfh kjdh sfh dskjhfads ffffkjhdslfkj hdasfkj dslfjhd fjkdh ksjafh kljdfhjkasdh jkh fkjashlkj a ahskldjfh wjkehrkjweh hsdkjh9u kja<br/><BR/>ioeuw ru oiueroi eeiour iwiu eriou <br/><BR/><br/><BR/>ou qoiuroi qoiweuro iuoiru ropiwqu roiuqweori oiweu roiuewopr io r oiuoiewur oiew ru oiewur uoiu roiu erioewru iouerio<br/><BR/>oiu oreiwut oiweutioeruio oerwut ioerutiowe urtioreu toiru toiwuroiu oiwrut oiperut oiu <br/><BR/>iuer iueryt iueryt uiery t reiuo tty <br/><BR/>uriewrt iwerit ioweru 
+                    oiu oreiwut oiweutioeruio oerwut ioerutiowe urtioreu toiru toiwuroiu oiwrut oiperut oiu <br/><BR/>iuer iueryt iueryt uiery t reiuo tty <br/><BR/>uriewrt iwerit ioweru <br/><BR/><br/><BR/>
+                    Muhannad Talib AL-Quraini
+                </div>   
+            </div>
+        </div>

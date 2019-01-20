@@ -1,0 +1,141 @@
+@media(max-width:530px){
+    /*====== NAV =====*/
+    #nav #N .Title{
+        left: 28%;
+    }
+    
+    /*===== Menu =====*/
+    #mune{
+         right: 0;
+    }
+  
+    /*===== Body =====*/
+    #Body{
+        width:100%;
+        margin-left: 0;
+        left: 0;
+    }
+
+    object{
+        display: none;
+    }
+    
+   /*===== News =====*/
+    #news{
+       /* display: none;*/
+        width: calc(100% - 40px);
+        left: 0;
+    }
+    
+    /*===== Minutiae =====*/
+   #Minutiae{
+         margin-top: -30px;
+         width: calc(100% - 30px);
+    }
+
+    /*===== Flooder =====*/
+    #fload{
+        font-size: 10pt;
+        height: 35px;
+        line-height: 9px;
+    }
+    #Button-Up{
+        bottom: 3px;
+        height: 30px;
+        width: 30px;
+    }
+    #Button-Up:hover{
+        transform: scale(1.1);
+    }
+    #Button-Up img {
+         height: 25px;
+         width: 20px;
+        
+    }
+     .loginbox3{
+       padding: 50px 20px;
+        transition-duration: 0.5s;
+    }
+    .loginbox3 div{
+        margin: 10px -10px;
+        padding: 10px 0;
+        font-weight: bold;
+        color: rgb(126, 214, 11);
+        line-height: 40px;
+    }
+      .loginbox4{
+       padding: 50px 20px;
+        transition-duration: 0.5s;
+    }
+    .loginbox4 div{
+        margin: 10px -10px;
+        padding: 10px 0;
+        font-weight: bold;
+        color: rgb(126, 214, 11);
+        line-height: 40px;
+    }
+    .loginbox{
+        padding: 60px 5px 30px;
+        transition-duration: 0.4s;
+        
+    }
+    #info{
+        width: 180px;
+        z-index: 999;
+
+    }
+    #img{
+       margin: 10px 5px;
+       display: inline-grid;
+    }
+    #img img{
+        widows: 70px;
+        height: 70px;
+
+        border-radius: 30px;
+    }
+    #img a{
+        font-size: 7pt;
+    }
+    #inf{
+        font-size: 10pt;
+    }
+    .m1{
+        margin: 2px 3px;
+    }
+    #inf button{
+        font-size: 10pt;
+        padding: 1px 10px;
+        height:25px;
+    }
+    
+}
+
+
+@media(max-width:420px){
+    .loginbox{
+        width:96vw;
+        left:calc(50% - (96vw)/2);
+    }
+    }.loginbox3{
+        width:80vw;
+        height:500px;
+        top:120px;
+        padding: 35px 5px;
+        left:calc(50% - (80vw)/2);
+    }
+    .loginbox3 div{
+        margin: 10px 0px;
+        padding: 10px 0;
+        font-size: 18pt;
+        font-weight: bold;
+        color: rgb(126, 214, 11);
+        line-height: 40px;
+    }
+    .loginbox input[type="submit"],input[type="reset"]{
+        height:30px;
+        margin-top: 5px;
+        font-size: 13pt;
+    }
+    
+}

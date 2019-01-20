@@ -1,0 +1,193 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Amiri:400,700|Aref+Ruqaa:400,700|Baloo+Bhaijaan|Changa:400,500,700|Harmattan|Jomhuria|Katibeh|Lateef|Markazi+Text:400,500,700|Mirza:400,700|Rakkas|Reem+Kufi&subset=arabic');
+
+*{
+/*    height: 100%;*/
+    /*width: 100%;*/
+    padding: 0;
+    margin: 0;
+    direction: rtl;
+    text-align: center;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+body{
+    background-image: url(../IMG/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top center;
+    margin:0;
+	padding:0;
+    color: #fff;
+   
+    /* font-family: 'Jomhuria', cursive;  */
+    font-family: 'Changa', sans-serif;   /*   الذيل + Admin   
+    /* font-family: 'Amiri', serif;                /* عام  */
+    /* font-family: 'Reem Kufi', sans-serif;    /*   title   */
+    /* font-family: 'Lateef', cursive; */
+    /* font-family: 'Mirza', cursive;  */
+    /* font-family: 'Markazi Text', serif;  */
+    /* font-family: 'Aref Ruqaa', serif;   /*   user        */
+    /* font-family: 'Harmattan', sans-serif;   /*    New    */
+    /* font-family: 'Baloo Bhaijaan', cursive; */
+    /* font-family: 'Katibeh', cursive; */
+    /* font-family: 'Rakkas', cursive; */
+    
+
+}
+
+#Body{
+    background-color:rgba(255,0,255,0);
+    width:90%;
+    margin-left: 5%;
+    float: left;
+    left: 5%;
+}
+
+#View{
+    background-color:rgba(0,0,255,0.1);
+    margin-top: 60px;
+    height: auto;
+    width: calc(100% - 180px);
+    float: left;
+    font-family: 'Amiri', serif; 
+}
+
+#news{
+    
+    background-color:rgba(155,0,0,1);
+    height: 30px;
+    position: fixed;
+    width: calc(90% - 180px);
+    font-size: 12px;
+    left: 5%;
+    top: 60px;
+    z-index: 0;
+        
+}
+
+#Minutiae{
+    background-color:rgba(255,255,100,0.18);
+    padding: 15px;
+    margin-top: 20px;
+    height: auto;
+    padding-bottom:  50px;
+    /* width: calc(100% - 0px); */
+    float: left;
+    left: 0;
+}
+
+#View2{
+    background-color:rgba(0,0,255,0.1);
+    margin-top: 60px;
+/*    height: 100vh;*/
+    width: calc(100% - 0px);
+    float: left;
+    font-family: 'Amiri', serif; 
+}
+
+#Minutiae2{
+    background-color:rgba(255,255,100,0.18);
+    padding: 25px 20px;
+    margin-top: 0px;
+     width: calc(100% - 30px);
+/*    height:calc(100vh - 150px);*/
+/*    padding-bottom:  50px;*/
+   float: left;
+    left: 0;
+}
+
+#frm{
+    background-color: rgba(0,0,0,0.1);
+    height: 100%;
+    font-size: 14pt;
+    
+}
+#frm table,tr,td{
+    border: 0px;
+}
+#frm input,textarea{
+    font-size: 11pt;
+    background-color: rgba(155,0,55,0.5);
+/*    height: 30px;*/
+    margin: 5px;
+    border: 1px solid rgba(0,0,0,0.5);
+    border-radius: 10px;
+    color:#00FFFF;
+    text-align: right;
+    padding: 5px;
+    width: calc(100% - 10px);
+    font-family: "Times New Roman";
+}
+#frm .btn{
+/*    width:80px;*/
+    min-width: 95px;
+    max-width: 25%;
+    background-color: rgba(0,0,155,0.7);
+    border: 2px solid rgba(0,255,255,0.8);
+    border-radius: 20pt;
+    color:#00FFFF;
+    text-align: center;
+    padding: 5px;
+    font-size: 12pt;
+    font-weight: bold;
+    box-shadow: 0 2px #f80;
+    height:35px;
+    transition: all 0.3s;
+}
+#frm .btn:hover{
+    background-color: rgba(0,255,255,0.8);
+    border: 2px solid rgba(0,0,155,0.8);
+    border-radius: 20pt;
+    color:#00009B;
+    transform: scale(1.1);
+}
+#frm .btn:active{
+    background-color: rgba(0,0,155,0.7);
+    border: 2px solid rgba(0,255,255,0.8);
+    color:#00FFFF;
+    box-shadow: 0 0px #f80;
+    transform: translateY(2px) scale(1.1);
+}
+#frm #mail{
+    direction: ltr;
+}
+
+#fload{
+    background-color:rgba(0,80,140,1);
+    font-size: 12pt;
+    height: 40px;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    bottom: 0px;
+    padding-top: 05px;
+    line-height: 14px;
+    font-family: 'Changa', sans-serif;
+    
+}
+#Button-Up{
+    position: fixed;
+    bottom: 5px;
+    right: 10px;
+    background-color: rgba(200,200,100,0.2);
+    border: 01px solid #000;
+    border-radius: 60%;
+    height: 35px;
+    width: 35px;
+}
+#Button-Up:hover{
+    transform: scale(1.15);
+    background-color: rgba(100,100,20,0.6);
+}
+#Button-Up img {
+    position: absolute;
+    top: 50%; left: 50%;
+     height: 25px;
+    width: 25px;
+     transform: translate(-50%, -50%)
+}
+

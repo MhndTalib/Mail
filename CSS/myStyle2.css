@@ -1,0 +1,374 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Amiri:400,700|Aref+Ruqaa:400,700|Baloo+Bhaijaan|Changa:400,500,700|Harmattan|Jomhuria|Katibeh|Lateef|Markazi+Text:400,500,700|Mirza:400,700|Rakkas|Reem+Kufi&subset=arabic');
+
+*{
+    padding: 0;
+    margin: 0;
+    direction: rtl;
+    font-family:"Times New Roman","sultan medium", serif;
+/*    text-align: center;*/
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+body{
+    background-image: url(../IMG/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top center;
+	margin:0;
+	padding:0;
+	background-size:cover;
+	background-position:center;
+	font-family:"sultan medium","Times New Roman", serif;
+    font-family: 'Cairo', sans-serif;
+		
+}
+.loginbox{
+	width:420px;
+	height:500px;
+	background-color:rgba(0,0,0,0.7);
+	color:#fff;
+	top:110px;
+	left:calc(50% - 210px);
+	position:absolute;
+	box-sizing:border-box;	
+	padding:70px 30px;
+    font-size:12pt;
+    font-weight: bold;
+}
+.loginbox2{
+	width:320px;
+	height:400px;
+	background-color:rgba(0,0,0,0.7);
+	color:#fff;
+	top:150px;
+	left:calc(50% - 160px);
+	position:absolute;
+	box-sizing:border-box;	
+	padding:70px 30px;
+    font-size:12pt;
+    font-weight: bold;
+}
+.loginbox3{
+	width:70vw;
+	height:420px;
+	background-color:rgba(0,0,0,0.5);
+	color:#fff;
+	top:150px;
+	left:calc(50% - (70vw)/2);
+	position:absolute;
+	box-sizing:border-box;	
+	padding:70px 30px;
+    font-size:12pt;
+    font-weight: bold;
+	text-align: center;
+	padding: 60px 20px;
+}
+.loginbox3 div{
+    margin: 10px -10px;
+    padding: 15px 0;
+    font-size: 20pt;
+    font-weight: bold;
+	color: rgb(126, 214, 11);
+	line-height: 60px;
+}
+
+.avatar{
+	width:80px;
+	height:80px;
+	border-radius:50%;
+	position:absolute;
+	top:-40px;
+	left:calc(50% - 40px);
+}
+.loginbox2 h1{
+	margin:-15px 0;
+	padding:0 0 20px 0;
+	/*padding:T R B L ;*/
+	text-align:center;
+	font-size:18pt;	
+}
+.loginbox2 p{
+	margin:5px 25px 0 0;
+	padding:0;
+	font-weight:bold;
+}
+.loginbox2 input {
+	font-size: 14pt;
+    text-align: center;
+    margin: 5px;
+    width: 100%;
+}
+.loginbox2 label {
+	width:30%;
+    margin: 50px 25px 45px 18px;
+    text-align: left;
+}
+
+.loginbox2 input[type="text"],input[type="password"]{
+	border:none;
+	border-bottom:1px solid #fff;
+	background:transparent;
+	height:40px;
+	color:#fff;
+	padding: 0 10px;
+	direction: ltr;
+}
+.loginbox2 input[type="submit"]{
+	border:none;
+	height:40px;
+	background:#fb2525;
+	color:#fff;
+    margin: 25px 0 25px;
+	border-radius:20px;
+    font-size: 18pt;
+    font-weight: bold;
+    transition: background 0.5s;
+}
+.loginbox2 input[type="submit"]:hover{
+	cursor:pointer;
+	background:#ffc107;
+	color:#000;
+}
+.loginbox2 a{
+	text-decoration:none;
+	font-size:12pt;
+	line-height:20px;
+	color:#fff;
+    margin-bottom: 10px;
+}
+.loginbox2 a:hover{
+	color:#ffc107;
+}
+
+.loginbox h1{
+	margin:-15px 0;
+	padding:0 0 20px 0;
+	/*padding:T R B L ;*/
+	text-align:center;
+	font-size:22pt;	
+}
+.loginbox p{
+	margin:5px 25px 0 0;
+	padding:0;
+	font-weight:bold;
+}
+.loginbox input {
+	font-size: 14pt;
+    text-align: center;
+    margin-bottom: 5px;
+   
+}
+.loginbox label {
+	width:30%;
+    margin: 50px 25px 45px 18px;
+    text-align: left;
+}
+.loginbox input[type="text"],input[type="tel"],input[type="password"]{
+	border:none;
+	border-bottom:1px solid #fff;
+	background:transparent;
+	height:40px;
+	color:#fff;
+	
+}
+.loginbox input[type="date"],input[type="time"]{
+	border:none;
+	border-bottom:1px solid #fff;
+	background:transparent;
+	height:40px;
+	color:#fff;
+    text-align: center;
+	
+}
+.loginbox input[type="submit"],input[type="reset"]{
+	border:none;
+	height:40px;
+	background:#fb2525;
+	color:#fff;
+    margin-top: 15px;
+	border-radius:20px;
+    font-size: 18pt;
+    font-weight: bold;
+    transition: background 0.5s;
+}
+.loginbox input[type="submit"]:hover
+,input[type="reset"]:hover{
+	cursor:pointer;
+	background:#ffc107;
+	color:#000;
+}
+
+.log{
+	width:15px;
+	height:15px;
+/*	border-radius:50%;
+*/	position:absolute;
+	
+}
+.input50 {
+	width:40%;
+	margin-bottom:10px;
+    margin-right: 20px;
+}
+.input70 {
+	width:60%;
+	margin-bottom:10px;
+    margin-right: -10px;
+}
+.input100 {
+	width:87%;
+	margin-bottom:10px;
+    margin-right: 20px;
+}
+.inputCh {
+	width:10%;
+	margin:10px 0px 10px 0px;;
+    margin-right: 20px;
+}
+#nav{
+    height: 60px;
+    background-color:rgba(205,105,100,0.3);
+    background-image: url(../IMG/NAV2.jpg)  ;
+    background-size: cover contain;
+    background-position: bottom;
+    padding: 0px;
+    font-size: 18pt;
+    width: 100%;
+}
+#nav .iraq {
+    position: fixed;   
+}
+#nav .iraq img{
+    position: fixed;
+    top: 0;
+    left: calc(50% + 70px);
+    width: 100px;
+    height: 60px;
+    margin-top: -15px;
+}
+#nav .Title{
+    position: fixed;
+    top: 0;
+	text-align: center;
+    left:calc(50% - 80px);
+    margin-top: 20px;
+    color: rgb(0, 0, 155);
+    font-size: 22pt;
+    font-weight:500;
+    font-family: 'Reem Kufi', sans-serif; 
+    /* font-family: "Andalus"; */
+    z-Index: 900;
+    
+    transition-duration: 0.5s;
+}
+#domin{
+    direction: ltr;
+}
+#pass2{
+    background-color: rgba(255, 222, 222, 0.979);
+    width: 180px;
+    padding: 5px;
+    padding-right: 25px;
+    font-size: 12pt;
+    border-radius: 15px;
+}
+#sho{
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    background-image: url(../IMG/show.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+    padding: 5px;
+    margin: -35px -12px 3px 91px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+#sho:hover{
+    background-color: rgba(200, 200, 200, 0.4);
+    color: #fff;
+    
+}
+#sho2{
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    background-image: url(../IMG/show.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+    padding: 5px;
+    margin: -35px -12px 3px 91px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+#sho2:hover{
+    background-color: rgba(200, 200, 200, 0.4);
+    color: #fff;
+    
+}
+#res_pass{
+    margin-top: 40px;
+}
+
+.loginbox3 div span {
+    font-style: italic;
+    color: rgb(255, 166, 0);
+	/* text-decoration: underline; */
+	cursor: pointer;
+}
+.loginbox4{
+	width:65vw;
+	height:420px;
+	background-color:rgba(0,0,0,0.5);
+	color:#fff;
+	top:150px;
+	left:calc(50% - (65vw)/2);
+	position:absolute;
+	box-sizing:border-box;	
+	padding:70px 30px;
+    font-size:12pt;
+    font-weight: bold;
+	text-align: center;
+	padding: 60px 20px;
+}
+.loginbox4 div{
+    margin: 10px -10px;
+    padding: 15px 0;
+    font-size: 20pt;
+    font-weight: bold;
+	color: rgb(126, 214, 11);
+	line-height: 60px;
+}
+
+
+.loginbox4 div span {
+    font-style: italic;
+    color: rgb(255, 166, 0);
+	/* text-decoration: underline; */
+	cursor: pointer;
+}
+#note{
+	font-size: 16pt;
+	font-weight: bold;
+	background-color: rgba(0,0,150,0.4);
+    color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 5px;
+}
+#note span{
+    font-size: 16pt;
+    color: #f00;
+    font-weight: bold;
+    text-decoration: underline;
+}
+#chng{
+    margin-bottom: 30px;
+}

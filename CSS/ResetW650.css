@@ -1,0 +1,145 @@
+@media(max-width:650px){
+    /*====== NAV =====*/
+    #nav #M_Nav1{
+        background-color:rgba(222,000,100,0.6);
+        width: 40px;
+        min-width: 40px;
+    }
+    #nav #M_Nav1 .Name{
+        display: none;
+    }
+    #nav .logout{
+        background-color:rgba(0,200,205,0.3);
+        left: 40px;
+        width: 40px;
+        font-size: 0;
+        background-image: url(../IMG/logout.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        transition-duration: 0.5s;
+    }
+    #nav #N .Title{
+        
+        left: 35%;
+    }
+    #nav #N_Admin{
+        background-color:rgba(0,200,205,0.7);
+        width: 40px;
+        font-size: 0pt;
+        background-image: url(../IMG/admin.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        transition-duration: 0.5s;
+    }
+    object{
+        display: none;
+    }
+    /*===== Menu =====*/
+    #mune{
+        float: right;
+        width: 40px;
+    }
+    #mune #M_Nav{
+       width: 20px;
+        background-color: transparent;
+    }
+    #mune #M_Nav .New a{
+       width: 20px;
+        padding: 2px;
+        margin-right: 5px;
+
+        border-radius: 0px;
+       background-color: transparent;
+    }
+    #mune #M_Nav .New a .Add{
+        width: 35px;
+        height: 35px;
+        margin-right: -2px;
+        margin-top: 0px;
+        padding-top: 0px;
+        display:inherit;
+        transition-duration: 0.8s;
+    }
+    #mune #M_Nav .New a .Add:hover{
+        transform: rotate(360deg);
+    }
+    #mune #M_Nav .New a .Add2{
+        display: none;
+    }  
+    #mune #M_link{
+        margin-top: 60px
+    }
+    #mune p{
+        background-color: transparent;
+        float: right;
+        padding: 2px 1px;
+        height: 30px;
+        margin: 10px 4px;
+        line-height: 30px;
+    }
+    #mune p:hover{
+        background-color: transparent;
+    }
+    #mune p .M_icon{
+        display: inherit;
+    }
+    #mune p .M_icon img{
+        width: 30px;
+        height: 30px;
+        transition-duration: 0.5s;
+    }
+    #mune p .M_icon img:hover{
+        transform: scale(1.5);
+    }
+    #mune p .M_Name{
+        display: none;
+    }
+    #mune p .M_Num{
+        display: none;
+    }
+
+   /*===== View =====*/
+    #View{
+        margin-top: 120px;
+        width: calc(100% - 40px);
+   }
+    
+   /*===== News =====*/
+    #news{
+       /* display: none;*/
+        width: calc(90% - 40px);
+    }
+    
+    /*===== Minutiae =====*/
+   #Minutiae{
+         margin-top: -30px;
+         width: calc(100% - 30px);
+    }
+
+    /*===== Flooder =====*/
+    #fload{
+        font-size: 10pt;
+        height: 35px;
+        line-height: 9px;
+    }
+    
+    /*===== Button-Up =====*/
+    #Button-Up{
+        bottom: 3px;
+        height: 28px;
+        width: 28px;
+    }
+    #Button-Up:hover{
+        transform: scale(1.1);
+    }
+    #Button-Up img {
+         height: 25px;
+         width: 20px;
+    }
+
+    
+    
+    
+}
